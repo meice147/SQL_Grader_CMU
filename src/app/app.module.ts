@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import {MdGridListModule} from '@angular/material';
 import 'hammerjs';
 
 
@@ -35,6 +36,7 @@ const ROUTES = [
     BrowserModule,
     FormsModule,
     HttpModule,
+    MdGridListModule,
     RouterModule.forRoot(ROUTES) 
   ],
   providers: [],
