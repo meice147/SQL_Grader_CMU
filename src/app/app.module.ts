@@ -5,7 +5,8 @@ import { HttpModule } from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
-import {MdGridListModule} from '@angular/material';
+import {MdGridListModule,MdCardModule,MaterialModule,MdInputModule} from '@angular/material';
+
 import 'hammerjs';
 
 
@@ -16,8 +17,7 @@ import { AddassignmentComponent } from './addassignment/addassignment.component'
 const ROUTES = [
   {
     path: '',
-    component: AppComponent,
-    pathMatch: 'full'
+    component: AppComponent
   },
   {
     path: 'addassignment',
@@ -31,6 +31,9 @@ const ROUTES = [
     AddassignmentComponent
   ],
   imports: [
+    MdInputModule,
+    MaterialModule,
+    MdCardModule,
     NoopAnimationsModule,
     BrowserAnimationsModule,
     BrowserModule,
