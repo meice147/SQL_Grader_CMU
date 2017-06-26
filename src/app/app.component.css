@@ -2,5 +2,14 @@
 * @Author: fofanza1
 * @Date:   2017-04-09 15:32:11
 * @Last Modified by:   fofanza1
-* @Last Modified time: 2017-04-11 15:04:50
+* @Last Modified time: 2017-04-12 15:28:33
 */
+
+.righttoolbar {
+    flex: 1 1 auto;
+
+}
+
+.paddingrighttoolbar {
+    padding: 0 14px;
+}
